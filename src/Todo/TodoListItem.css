@@ -1,0 +1,32 @@
+.todoitem-container {
+    background-color: white;
+    position:relative;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 8px;
+    box-shadow: 0 4px 8px grey;
+}
+.button-container {
+    position:absolute;
+    right: 12px;
+    bottom: 12px;
+
+}
+button {
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.mark-complete {
+    background-color:  #22ee22;;
+    display: inline-block;
+}
+
+.remove {
+    background-color: red;
+    display: inline-block;
+    margin-left: 10px;
+}
